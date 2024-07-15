@@ -21,8 +21,8 @@ const uint16_t distance_per_cell = 238;
 uint16_t counts_per_revolution_left = 700;
 uint16_t counts_per_revolution_right = 700;
 
-const uint8_t Front_PWM_max = 200;
-const uint8_t Turning_PWM_max = 200;
+const uint8_t Front_PWM_max = 255;
+const uint8_t Turning_PWM_max = 255;
 const uint8_t Front_PWM_min = 15;
 const uint8_t Turning_PWM_min = 15;
 
